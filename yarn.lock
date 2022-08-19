@@ -225,6 +225,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@heroicons/react@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "@heroicons/react@npm:1.0.6"
+  peerDependencies:
+    react: ">= 16"
+  checksum: 372b1eda3ce735ef069777bc96304f70de585ebb71a6d1cedc121bb695f9bca235619112e3ee14e8779e95a03096813cbbe3b755927a54b7580d1ce084fa4096
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.10.4":
   version: 0.10.4
   resolution: "@humanwhocodes/config-array@npm:0.10.4"
@@ -839,6 +848,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "big-farma@workspace:."
   dependencies:
+    "@heroicons/react": ^1.0.6
     babel-plugin-styled-components: ^2.0.7
     bcrypt: ^5.0.1
     eslint: 8.22.0

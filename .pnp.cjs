@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@heroicons/react", "virtual:a18acc6154d2fac3004a69b993d6546b03d650bfe06c0bae9c420782ef81e2c910702e54dc6778588ca023322a01a19710397a8ea6b84d11380e1a25c9d88923#npm:1.0.6"],\
             ["babel-plugin-styled-components", "virtual:a18acc6154d2fac3004a69b993d6546b03d650bfe06c0bae9c420782ef81e2c910702e54dc6778588ca023322a01a19710397a8ea6b84d11380e1a25c9d88923#npm:2.0.7"],\
             ["bcrypt", "npm:5.0.1"],\
             ["eslint", "npm:8.22.0"],\
@@ -295,6 +296,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@gar-promisify-npm-1.1.3-ac1a325862-4059f790e2.zip/node_modules/@gar/promisify/",\
           "packageDependencies": [\
             ["@gar/promisify", "npm:1.1.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@heroicons/react", [\
+        ["npm:1.0.6", {\
+          "packageLocation": "./.yarn/cache/@heroicons-react-npm-1.0.6-51f92ebbfd-372b1eda3c.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "npm:1.0.6"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:a18acc6154d2fac3004a69b993d6546b03d650bfe06c0bae9c420782ef81e2c910702e54dc6778588ca023322a01a19710397a8ea6b84d11380e1a25c9d88923#npm:1.0.6", {\
+          "packageLocation": "./.yarn/__virtual__/@heroicons-react-virtual-bb0d274250/0/cache/@heroicons-react-npm-1.0.6-51f92ebbfd-372b1eda3c.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "virtual:a18acc6154d2fac3004a69b993d6546b03d650bfe06c0bae9c420782ef81e2c910702e54dc6778588ca023322a01a19710397a8ea6b84d11380e1a25c9d88923#npm:1.0.6"],\
+            ["@types/react", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1059,6 +1082,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["big-farma", "workspace:."],\
+            ["@heroicons/react", "virtual:a18acc6154d2fac3004a69b993d6546b03d650bfe06c0bae9c420782ef81e2c910702e54dc6778588ca023322a01a19710397a8ea6b84d11380e1a25c9d88923#npm:1.0.6"],\
             ["babel-plugin-styled-components", "virtual:a18acc6154d2fac3004a69b993d6546b03d650bfe06c0bae9c420782ef81e2c910702e54dc6778588ca023322a01a19710397a8ea6b84d11380e1a25c9d88923#npm:2.0.7"],\
             ["bcrypt", "npm:5.0.1"],\
             ["eslint", "npm:8.22.0"],\
