@@ -8,7 +8,6 @@ export const Header = styled.header`
   gap: 10px;
   align-items: center;
   padding: 10px;
-  width: 100vw;
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
   background-color: white;
 
@@ -16,7 +15,6 @@ export const Header = styled.header`
     font-size: 16px;
     font-weight: 400;
     font-family: "Poppins";
-    /* outline: 1px solid red; */
   }
 
   .logo {
@@ -27,52 +25,52 @@ export const Header = styled.header`
 
   /* SEARCH FILTERING */
 
-  form {
+  .filter-form {
     display: flex;
     gap: 20px;
     width: 600px;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+  }
 
-    & .categories {
-      height: 40px;
-      padding: 5px;
-      border-radius: 5px;
-      border-style: none;
-      background-color: transparent;
-    }
+  .categories {
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: transparent;
+  }
 
-    & .options {
-      border-radius: 5px;
-      line-height: 2px;
-      padding: 10px;
-      font-size: 18px;
-      font-weight: 400;
-    }
+  .options {
+    border-radius: 5px;
+    line-height: 2px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+  }
 
-    & .search-wrapper {
-      position: relative;
-      display: flex;
-      align-items: center;
-      width: 600px;
-    }
+  .search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 600px;
+  }
 
-    & .search-bar {
-      width: 100%;
-      height: 40px;
-      padding: 2px 10px;
-      border-radius: 5px;
-      border-style: none;
-      border: 2px solid rgba(0, 0, 0, 0.4);
-    }
+  .search-bar {
+    width: 100%;
+    height: 40px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    border-style: none;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+  }
 
-    & .search-icon {
-      position: absolute;
-      right: 10px;
-      height: 30px;
-      pointer-events: none;
-    }
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    height: 30px;
+    pointer-events: none;
   }
 
   .menu {
@@ -80,41 +78,42 @@ export const Header = styled.header`
     margin: 0 auto;
     gap: 10px;
     align-items: center;
+  }
 
-    .menu-item {
-      display: flex;
-      width: 60px;
-    }
+  .menu-item {
+    display: flex;
+    width: 60px;
+  }
 
-    & .sign-in {
-      display: flex;
-      padding: 10px;
-      border-radius: 5px;
-      border-style: none;
-      color: ${twhite};
-      background-color: ${tgreen};
-    }
+  .sign-in {
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    color: ${twhite};
+    background-color: ${tgreen};
+  }
 
-    .cart-wrapper {
-      position: relative;
+  .cart-wrapper {
+    position: relative;
+  }
 
-      .shopping-cart {
-        height: 40px;
-        width: 40px;
-      }
+  .shopping-cart {
+    height: 40px;
+    width: 40px;
+  }
 
-      .item-counter {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        top: 0;
-        right: 0;
-        height: 20px;
-        width: 20px;
-        border-radius: 50%;
-        background-color: ${tgreen};
-      }
-    }
+  .item-counter {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: ${tgreen};
   }
 `;

@@ -1,25 +1,32 @@
 import { SearchIcon, ShoppingCartIcon } from "@heroicons/react/outline";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import Logo from "../../../public/favicon/Logo.png";
-
+import SignIn from "../forms/SignIn";
+import Modal from "../Modal";
 import { Header } from "./MainHeader.styled";
 
 const categories = ["Fruits", "Vegetables", "Meats"];
-const MainHeader = ({ children }) => {
+export default function MainHeader({ children }) {
+  const [open, setOpen] = useState(false);
+
   function onClick() {
-    console.log("clicked");
+    setOpen(true);
   }
 
   return (
     <>
+      <Modal open={open} onClose={() => setOpen(false)}>
+        <SignIn />
+      </Modal>
       <Header>
         <Link href="/">
           <a className="logo">
             <Image src={Logo} alt="" layout="fill" />
           </a>
         </Link>
-        <form>
+        <form className="filter-form">
           <select name="category" id="category" className="categories">
             <option value="" className="options">
               Categories
@@ -55,6 +62,4 @@ const MainHeader = ({ children }) => {
       {children}
     </>
   );
-};
-
-export default MainHeader;
+}

@@ -4,10 +4,7 @@ import ItemCard from "./ItemCard";
 export default function HomePage() {
   return (
     <Home>
-      <header>
-        <h1 className="heading">Poultry</h1>
-      </header>
-
+      <h1 className="heading">{"Vegetables"}</h1>
       <section className="items-section">
         <div className="items-side__menu">
           <form className="item-filter">

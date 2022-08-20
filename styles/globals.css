@@ -11,8 +11,8 @@ body {
   font-family: -apple-system, Poppins, Questrial, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
-  height: 100vh;
-  /* background: grey; */
+  background: rgba(0, 0, 0, 0.1);
+  background-size: cover;
 }
 
 a {
